@@ -1,0 +1,42 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+destination: _site
+sass:
+  sass_dir: _sass
+  style: expanded # compressed # expanded
+
+# permalink and highlighter
+permalink   : /:year/:title/
+markdown    : kramdown
+highlighter : pygments
+
+# SEO settings
+title: Harkirat Singh
+description: "My blog"
+keywords: "Jekyll, Blog, Harkirat, Singh"
+
+# Site settings
+url: http://singhharkirat.com
+#baseurl: "/dotX"
+baseurl: ""
+
+# Author settings
+author:
+  name      : Harkirat Singh
+  job       : Developer/Coder/Film Maker
+  thumb     : /images/author.jpg
+  email     : harkirat96@gmail.com
+  url       : http://singhharkirat.com
+  github    : http://github.com/hkirat
+  facebook  : http://facebook.com/hskpns
+
+# google_analytics: UA-52446115-1
+repo: http://github.com/hkirat/hkirat.github.io
+
+# comments
+#disqus_shortname: "fernandomoreira"

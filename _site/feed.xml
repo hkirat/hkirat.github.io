@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Harkirat Singh</title>
+    <description>My blog</description>
+    <link>http://singhharkirat.com/</link>
+    <atom:link href="http://singhharkirat.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 09 May 2016 17:40:02 +0530</pubDate>
+    <lastBuildDate>Mon, 09 May 2016 17:40:02 +0530</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Google Summer of Code</title>
+        <description>&lt;h1&gt; Google Summer of Code &lt;/h1&gt;
+&lt;p&gt;This is my first blog post in the series where I’ll be posting my updates about GSoC 2016.
+I’ll start from the beginning. 
+I started doing open source a year back when I was introduced to this awesome campus group SDSLabs, here at IIT Roorkee.
+I worked on some internal projects, biggest one being a chess playing platform for the intranet of IIT Roorkee. It mainly involved javascript as the language. 
+I was previously contributing to the Processing foundation. I really liked the work that they were doing and was enjoying the experience. But they didn’t get selected as a GSoC organisation this year. 
+I was introduced to Gambit while I was scrolling through this years organisations selected in GSoC. I found their work interesting and the project quite optimum to my capabilities.
+I went through the code in the month of March and April and started contributing. I loved interacting with the mentors who were very helpful along the way and since I loved the work that they were offering, I didn’t apply for any other organisation.
+&lt;br /&gt;&lt;/p&gt;
+&lt;h1&gt; The Project &lt;/h1&gt;
+&lt;p&gt;My project revolves around porting the flash version of the Game theory explorer to Javascript which would make further development easier. 
+I have made my proposal open and it can be found &lt;a href=&quot;https://docs.google.com/document/d/1qbIrPj-IAaJ1FzWCzDp2vmbaC40A5X8ZdSLrjtCm0eg/edit#&quot;&gt;here&lt;/a&gt;&lt;br /&gt;
+The github repository containing the current code of the project can be found &lt;a href=&quot;github.com/gambitproject/jsgte&quot;&gt;here&lt;/a&gt;.
+I’m currently in the middle of my community bonding period and am looking forward to an awesome adventure.&lt;/p&gt;
+&lt;center&gt;&lt;h3&gt;It is going to be an interesing summer!&lt;/h3&gt;&lt;/center&gt;
+</description>
+        <pubDate>Sat, 07 May 2016 18:38:35 +0530</pubDate>
+        <link>http://singhharkirat.com/gsoc-start</link>
+        <guid isPermaLink="true">http://singhharkirat.com/gsoc-start</guid>
+        
+        
+        <category>gsoc</category>
+        
+      </item>
+    
+  </channel>
+</rss>
