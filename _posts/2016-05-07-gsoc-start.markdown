@@ -17,6 +17,6 @@ I went through the code in the month of March and April and started contributing
 <h1> The Project </h1>
 My project revolves around porting the flash version of the Game theory explorer to Javascript which would make further development easier. 
 I have made my proposal open and it can be found [here](https://docs.google.com/document/d/1qbIrPj-IAaJ1FzWCzDp2vmbaC40A5X8ZdSLrjtCm0eg/edit#)  
-The github repository containing the current code of the project can be found [here](github.com/gambitproject/jsgte).
+The github repository containing the current code of the project can be found [here](https://github.com/gambitproject/jsgte).
 I'm currently in the middle of my community bonding period and am looking forward to an awesome adventure. 
 <center><h3>It is going to be an interesing summer!</h3></center>
