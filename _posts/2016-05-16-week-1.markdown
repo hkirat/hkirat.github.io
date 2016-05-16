@@ -12,7 +12,7 @@ One day was spent on setting up the earlier version of [GTE](github.com/gambitpr
 # The Setup
 My project was partly motivated for getting over the tedious process of the previous version of GTE. The previous version was in flash and I am yet to understand its code.
 
-# The PR's
+# The PRs
 Meanwhile I also added a [feature](https://github.com/gambitproject/jsgte/pull/89). It involves making the settings panel draggable. Though there are other things to be implemented but it is a start.
 
 # The Future
