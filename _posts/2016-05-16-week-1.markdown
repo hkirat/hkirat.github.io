@@ -3,7 +3,7 @@ layout: post
 title:  "Google Summer of Code : Week 1"
 categories: ['gsoc']
 permalink:  "gsoc-week-1"
-date:   2016-16-07 7:23:35 -0200
+date:   2016-16-07 11:08:35 -0200
 ---
 <h1> Google Summer of Code : Week 1</h1>	
 Since the community bonding period is still on, this week was low on commits and more on discussing the plans for the project.
