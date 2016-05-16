@@ -1,0 +1,23 @@
+---
+layout: post
+title:  "Google Summer of Code : Week 1"
+categories: ['gsoc']
+permalink:  "gsoc-week-1"
+date:   2016-16-07 7:23:35 -0200
+---
+<h1> Google Summer of Code : Week 1</h1>	
+Since the community bonding period is still on, this week was low on commits and more on discussing the plans for the project.
+One day was spent on setting up the earlier version of [GTE](github.com/gambitproject/gte). 
+
+# The Setup
+My project was partly motivated for getting over the tedious process of the previous version of GTE. The previous version was in flash and I am yet to understand its code.
+
+# The PR's
+Meanwhile I also added a [feature](https://github.com/gambitproject/jsgte/pull/89). It involves making the settings panel draggable. Though there are other things to be implemented but it is a start.
+
+# The Future
+I was going through this library called [circular-json](https://github.com/WebReflection/circular-json/) which would help me implement the save/load feature in jsgte. The major problem with saving and loading in jsgte is that the prototypes are circular and end up referencing each other. circular-json tends to overcome this yet there seems to be a bug when I used it in jsgte. Anyways I submitted for an [issue](https://github.com/WebReflection/circular-json/issues/24) with those guys. Lets see if we can find a fix.
+
+That was pretty much it this week. The next week would be more productive in terms of commits I think. I plan to complete the exporting to image formats feature this week and start working on the save/load from json format as well. 
+
+Mugs and Glory 
