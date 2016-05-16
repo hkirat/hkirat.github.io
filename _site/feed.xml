@@ -5,9 +5,37 @@
     <description>My blog</description>
     <link>http://singhharkirat.com/</link>
     <atom:link href="http://singhharkirat.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 09 May 2016 17:40:02 +0530</pubDate>
-    <lastBuildDate>Mon, 09 May 2016 17:40:02 +0530</lastBuildDate>
+    <pubDate>Mon, 16 May 2016 19:35:16 +0530</pubDate>
+    <lastBuildDate>Mon, 16 May 2016 19:35:16 +0530</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Google Summer of Code : Week 1</title>
+        <description>&lt;h1&gt; Google Summer of Code : Week 1&lt;/h1&gt;
+&lt;p&gt;Since the community bonding period is still on, this week was low on commits and more on discussing the plans for the project.
+One day was spent on setting up the earlier version of &lt;a href=&quot;github.com/gambitproject/gte&quot;&gt;GTE&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-setup&quot;&gt;The Setup&lt;/h1&gt;
+&lt;p&gt;My project was partly motivated for getting over the tedious process of the previous version of GTE. The previous version was in flash and I am yet to understand its code.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-prs&quot;&gt;The PR’s&lt;/h1&gt;
+&lt;p&gt;Meanwhile I also added a &lt;a href=&quot;https://github.com/gambitproject/jsgte/pull/89&quot;&gt;feature&lt;/a&gt;. It involves making the settings panel draggable. Though there are other things to be implemented but it is a start.&lt;/p&gt;
+
+&lt;h1 id=&quot;the-future&quot;&gt;The Future&lt;/h1&gt;
+&lt;p&gt;I was going through this library called &lt;a href=&quot;https://github.com/WebReflection/circular-json/&quot;&gt;circular-json&lt;/a&gt; which would help me implement the save/load feature in jsgte. The major problem with saving and loading in jsgte is that the prototypes are circular and end up referencing each other. circular-json tends to overcome this yet there seems to be a bug when I used it in jsgte. Anyways I submitted for an &lt;a href=&quot;https://github.com/WebReflection/circular-json/issues/24&quot;&gt;issue&lt;/a&gt; with those guys. Lets see if we can find a fix.&lt;/p&gt;
+
+&lt;p&gt;That was pretty much it this week. The next week would be more productive in terms of commits I think. I plan to complete the exporting to image formats feature this week and start working on the save/load from json format as well.&lt;/p&gt;
+
+&lt;p&gt;Mugs and Glory&lt;/p&gt;
+</description>
+        <pubDate>Mon, 16 May 2016 18:38:35 +0530</pubDate>
+        <link>http://singhharkirat.com/gsoc-week-1</link>
+        <guid isPermaLink="true">http://singhharkirat.com/gsoc-week-1</guid>
+        
+        
+        <category>gsoc</category>
+        
+      </item>
     
       <item>
         <title>Google Summer of Code</title>
@@ -23,7 +51,7 @@ I went through the code in the month of March and April and started contributing
 &lt;h1&gt; The Project &lt;/h1&gt;
 &lt;p&gt;My project revolves around porting the flash version of the Game theory explorer to Javascript which would make further development easier. 
 I have made my proposal open and it can be found &lt;a href=&quot;https://docs.google.com/document/d/1qbIrPj-IAaJ1FzWCzDp2vmbaC40A5X8ZdSLrjtCm0eg/edit#&quot;&gt;here&lt;/a&gt;&lt;br /&gt;
-The github repository containing the current code of the project can be found &lt;a href=&quot;github.com/gambitproject/jsgte&quot;&gt;here&lt;/a&gt;.
+The github repository containing the current code of the project can be found &lt;a href=&quot;https://github.com/gambitproject/jsgte&quot;&gt;here&lt;/a&gt;.
 I’m currently in the middle of my community bonding period and am looking forward to an awesome adventure.&lt;/p&gt;
 &lt;center&gt;&lt;h3&gt;It is going to be an interesing summer!&lt;/h3&gt;&lt;/center&gt;
 </description>
