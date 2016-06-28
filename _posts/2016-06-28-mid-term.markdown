@@ -8,22 +8,27 @@ date:   2016-06-28 11:08:35 -0200
 <h1> Mid Term Evaluation </h1>
 The results of the mid term evaluation for GSoC 2016 came out today. I've been a bit busy with completing the project and so didn't have the time to write about my progess in the past few weeks.
 
-<h3> Lets Begin </h3>
+<h3> Strategic Form </h3>
 I started with the very first feature to be implemented, displaying games in strategic form. A game can be represented in two forms
 
 > Extensive Form
+
 > Strategic Form
 
 Extensive form had already been implemented by the person working on jsgte before me. My job was to wrap up the strategic form.
 It began with learning about rendering in svg.js. This wass followed by creating the following classes : 
- - Matrix.js
- - Strategty.js
- - StrategicBlock.js
+ > Matrix.js
+
+ > Strategty.js
+ 
+ > StrategicBlock.js
 
 These were interlinked together to provide rendering of three important games in strategic form, namely : 
- - General Games
- - Zero Sum Games
- - Symmetric Games
+ > General Games
+
+ > Zero Sum Games
+ 
+ > Symmetric Games
 
 The whole task took about 2 weeks to implement. By the first week of June I had the strategic form in a workable state. It is currently available in the strategic-form branch of jsgte and is yet to be merged.
 
