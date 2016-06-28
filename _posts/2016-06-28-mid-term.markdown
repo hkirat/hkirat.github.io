@@ -1,0 +1,45 @@
+---
+layout: post
+title:  "Google Summer of Code : Mid Term Evaluation"
+categories: ['gsoc']
+permalink:  "mid-term"
+date:   2016-06-28 11:08:35 -0200
+---
+<h1> Mid Term Evaluation </h1>
+The results of the mid term evaluation for GSoC 2016 came out today. I've been a bit busy with completing the project and so didn't have the time to write about my progess in the past few weeks.
+
+<h3> Lets Begin </h3>
+I started with the very first feature to be implemented, displaying games in strategic form. A game can be represented in two forms
+
+> Extensive Form
+> Strategic Form
+
+Extensive form had already been implemented by the person working on jsgte before me. My job was to wrap up the strategic form.
+It began with learning about rendering in svg.js. This wass followed by creating the following classes : 
+ - Matrix.js
+ - Strategty.js
+ - StrategicBlock.js
+
+These were interlinked together to provide rendering of three important games in strategic form, namely : 
+ - General Games
+ - Zero Sum Games
+ - Symmetric Games
+
+The whole task took about 2 weeks to implement. By the first week of June I had the strategic form in a workable state. It is currently available in the strategic-form branch of jsgte and is yet to be merged.
+
+<h3> Server Communication </h3>
+After the strategic form implementation, the most urgent task at hand was to implement communication between the games that were displayed to the user and the algorithm to solve it. 
+The first algorithm to be implemented was lrs.
+After spending a day on understanding and installing the lrs-lib, a server was implemented in node.js to complete the task. 
+The reason for choosing node.js was largely to keep the code consistant in javascript.
+The work on this is on the same branch as Strategic Form implementation.
+
+<h3> Load/Save </h3>
+This was followed by implemeting the load/save functionality.
+The idea is to save the extensive form of a game in xml format.
+I made two classes, xmlImporter and xmlExporter. 
+The xmlImporter class functions to import a game in xml form and convert it to tree form.
+The xmlExprter class functions in the exact opposite way.
+The work on this feature is yet to be merged and can be found in the load-save branch of my [fork](//github.com/hkirat/jsgte). 
+
+About 60% of the work on the project is complete. In the weeks to come I will be working on the undo/redo feature and do some front end tweeks.
