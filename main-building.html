@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, WebVR! - A-Frame</title>
+    <meta name="description" content="Hello, WebVR! - A-Frame">
+    <script src="https://aframe.io/releases/0.7.0/aframe.min.js"></script>
+  </head>
+  <body>
+	<a-scene>
+    <a-entity position="-20 0 -30" rotation="0 180">
+      <a-camera></a-camera>
+    </a-entity>
+	<a-sky color="#ECECEC"></a-sky>
+	  <a-assets position="-17.28 0 0">
+	    <a-asset-item id="tree-obj" src="https://raw.githubusercontent.com/hkirat/hkirat.github.io/master/out3.obj" position="-27.02 0 0" ></a-asset-item>
+	  </a-assets>
+    <a-plane width="63.20" height="87.08" color="#1c5600" rotation="-90 90" position="39.26 -20.68 20.90">
+    </a-plane>
+    <a-plane width="63.20" height="87.08" color="#1c5600" rotation="-90 90" position="-71.26 -20.68 20.90">
+    </a-plane>
+    <a-plane width="100.20" height="15.08" color="gray" rotation="-90 90" position="-16.26 -18.68 0.90">
+    </a-plane>
+    <a-plane width="200.20" height="15.08" color="gray" rotation="-90 90 90" position="-16.26 -18.68 -20.90">
+    </a-plane>
+	  <a-entity obj-model="obj: #tree-obj;" position="0 0 100.92"></a-entity>
+	</a-scene>
+  </body>
+</html>
