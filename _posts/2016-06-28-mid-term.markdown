@@ -16,7 +16,7 @@ I started with the very first feature to be implemented, displaying games in str
 > Strategic Form
 
 Extensive form had already been implemented by the person working on jsgte before me. My job was to wrap up the strategic form.
-It began with learning about rendering in svg.js. This wass followed by creating the following classes : 
+It began with learning about rendering in svg.js. This was followed by creating the following classes : 
  > Matrix.js
 
  > Strategty.js
